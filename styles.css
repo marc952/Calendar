@@ -1,0 +1,134 @@
+/* Set the default font family for the entire document */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header with a blue background, white text, centered alignment, and padding */
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar with a light gray background and padding */
+  nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  /* Style the main content area with padding */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the footer with a dark gray background, white text, centered alignment, and padding */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the calendar with a width of 70%, centered alignment, and margin */
+  .calendar {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* Style the calendar header with flexbox, space-between alignment, and margin */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the calendar header buttons with no background, border, or padding, and set the font size, cursor, and margin */
+  .calendar-header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px; /* Add some space between buttons */
+  }
+  
+  /* Style the calendar table with width, border-collapse, and margin */
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the calendar table header and cells with text alignment, padding, and background color */
+  .calendar-table th,
+  .calendar-table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .calendar-table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Style the calendar table cells with border, cursor, and padding */
+  .calendar-table td {
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Style the events container with width, margin, padding, background color, border, and border-radius */
+  .events {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the events header with margin-top */
+  .events h3 {
+    margin-top: 0;
+  }
+  
+  /* Style the events list with list-style-type and padding */
+  .events ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the events list items with margin-bottom */
+  .events li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the delete button with background color, white text, border, padding, cursor, border-radius, and hover effect */
+  .events .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+  
+  .events .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Add styles for event buttons */
+  .event-button {
+    background-color: #e74c3c; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 5px 10px; /* Padding around the button text */
+    margin: 5px; /* Margin between buttons */
+    border: none; /* Remove button border */
+    cursor: pointer;
+  }
+  
+  .event-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }

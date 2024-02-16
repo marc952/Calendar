@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FNCC Events Calendar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>FNCC Events Calendar</h1>
+    </header>
+
+    <nav>
+        <!-- Navigation elements (e.g., calendar selection) go here -->
+        <input type="number" id="year-input" placeholder="Enter year">
+        <button id="generate-button">Generate Calendar</button>
+        <ul>
+            <li><a href="teachers.html">FNCC Teacher's Calendar</a></li>
+            <li><a href="other_events.html">FNCC other event's Calendar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Calendar view and events go here -->
+        <div class="calendar">
+            <h2 id="current-year"></h2>
+            <table class="calendar-table">
+                <thead>
+                </thead>
+                <tbody>
+                    <!-- Calendar cells for months will be generated here dynamically -->
+                </tbody>
+            </table>
+        </div>
+        <div class="events">
+            <!-- Event information for the selected month will be displayed here -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+    <script src="renderer.js"></script>
+</body>
+</html>
